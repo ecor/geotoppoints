@@ -1,0 +1,14 @@
+Package: geotoppoints
+Maintainer: Emanuele Cordano <emanuele.cordano@gmail.com>
+License: GPL (>= 2)
+Title: geotoppoints: postprocessing GEOtop Point Simulations
+Type: Package
+Depends:
+    R (>= 2.10),geotopbricks,raster,zoo,ggplot2,stringr,reshape2
+Author: Emanuele Cordano
+Description: This package is built for graphical representation of the GEOtop
+    point results.  Bugs/comments/questions/collaboration of any kind are
+    warmly welcomed.
+Version: 1.0
+Repository: NA
+Date: 2013-10-27
