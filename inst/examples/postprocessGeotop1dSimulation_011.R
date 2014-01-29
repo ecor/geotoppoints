@@ -197,7 +197,7 @@ qp <- qplot(Time, value, data = pointvalues_plot, geom = "line", group = variabl
 print(qp)
 
 
-### THS <-  10000
+### THS <-  5000
 ### test <- pointvalues_melt[(pointvalues_melt$variable %in% c("psi_z580.000000")),]
 ### test <- test[test$L1=="MEZZOLOMBARDO",]
 ### test <- test[test$value>THS,]
