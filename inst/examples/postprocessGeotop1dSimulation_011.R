@@ -182,7 +182,7 @@ locations <- unique(pointvalues_melt$L1)
 #
 
 variable <- c("psi_z580.000000","psi_z1430.000000","psi_z3530.000000","psi_z16030.000000")
-variable <- c("theta_z580.000000","theta_z1430.000000","theta_z3530.000000","theta_z16030.000000")
+#variable <- c("theta_z580.000000","theta_z1430.000000","theta_z3530.000000","theta_z16030.000000")
 
 location <- locations
 
@@ -195,3 +195,8 @@ qp <- qplot(Time, value, data = pointvalues_plot, geom = "line", group = variabl
 
 ## scale = "free_y"
 print(qp)
+
+
+### THS <-  10000
+### test <- pointvalues_melt[(pointvalues_melt$variable %in% c("psi_z580.000000")),]
+### test <- test[test$value>THS,]
