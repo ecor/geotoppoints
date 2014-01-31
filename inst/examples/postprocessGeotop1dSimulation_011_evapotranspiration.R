@@ -160,7 +160,7 @@ location <- locations
 
 pointvalues_plot <- pointvalues_melt[(pointvalues_melt$variable %in% variable),]
 
-qp_EP <- qplot(Time, value, data = pointvalues_plot, geom = "hystogram", group = variable) +
+qp_EP <- qplot(Time, value, data = pointvalues_plot, geom = "point", group = variable) +
 		facet_grid(variable ~ L1, scale = "fixed")
 ## scale = "free_y"
 print(qp_EP)
